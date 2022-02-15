@@ -1,0 +1,227 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+.navbar {
+  background-image: linear-gradient(90deg, #4154f9, #5fc2e8);
+}
+
+.navbar-brand,
+.nav-link {
+  color: white !important;
+}
+
+.navbar-brand {
+  font-family: "Viga", sans-serif;
+  font-size: 25px;
+}
+
+.nav-link {
+  margin-right: 25px;
+}
+
+/* Jumbotron */
+.jumbotron {
+  background-image: linear-gradient(90deg, #4154f9, #5fc2e8);
+  height: 700px;
+}
+
+/* About */
+.about {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+  padding-top: 75px;
+  margin-top: -650px;
+}
+
+.gambar img {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  margin-bottom: 75px;
+  width: 100%;
+}
+
+.informasi h6 {
+  color: #989898;
+}
+
+.informasi h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.informasi h5 {
+  color: #373737;
+}
+
+.informasi p {
+  margin: 40px 0;
+}
+
+.informasi img {
+  width: 25px;
+  margin-right: 10px;
+}
+
+.informasi .item {
+  margin-bottom: -25px;
+}
+
+.informasi .ttl,
+.email,
+.alamat p {
+  font-weight: bold;
+  color: #707070;
+  font-size: 12px;
+}
+
+.informasi .icon {
+  margin-top: 90px;
+  margin-bottom: 200px;
+}
+
+.informasi .icon img {
+  width: 40px;
+}
+
+/* Education */
+.education h2 {
+  border-bottom: 3px solid #999;
+  padding-bottom: 10px;
+  margin-bottom: 50px;
+}
+
+.education {
+  margin-top: 100px;
+}
+
+.education .education-img img {
+  width: 100%;
+}
+
+.education .education-place .sekolah {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  /* height: 100px;
+margin-bottom: 50px; */
+}
+
+.education .education-place img {
+  width: 100px;
+  margin: 15px;
+}
+
+.education .education-place .sekolah {
+  box-sizing: border-box;
+  overflow: auto;
+  margin-bottom: 50px;
+}
+
+.education .education-place .sekolah h4 {
+  margin-top: 20px;
+}
+
+.education .education-place .sekolah p {
+}
+
+/* Portfolio */
+.portfolio {
+  background-color: #f1f1f1;
+}
+
+.container-portfolio h2 {
+  border-bottom: 3px solid #999;
+  padding-bottom: 10px;
+  margin-bottom: 50px;
+  margin-top: 80px;
+}
+
+.portfolio .card {
+  margin-bottom: 20px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Contact Me */
+.contact h2 {
+  border-bottom: 3px solid #999;
+  padding-bottom: 10px;
+  margin-bottom: 50px;
+  margin-top: 80px;
+}
+
+.contact h3 {
+  font-size: 35px;
+  color: #313131;
+  font-weight: bold;
+}
+
+.contact p {
+  font-size: 20px;
+  font-weight: bold;
+  color: #515151;
+}
+
+.contact img {
+  width: 60px;
+  margin: 10px 0;
+}
+
+.contact h4 {
+  border-bottom: 2px solid #999;
+  padding-bottom: 10px;
+}
+
+.contact .social-media a img {
+  width: 30px;
+  margin-bottom: 50px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+#welcome-section {
+  height: 100vh;
+}
+
+/* .contact .tombol-kontak a h6 {
+    margin-bottom: 10px !important;
+} */
+
+.contact .tombol-kontak {
+  background-color: #f3f3f3;
+  width: 130px;
+  height: 130px;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+  margin: 30px auto;
+}
+
+/* Footer */
+.footer {
+  background-color: #e2e2e2;
+}
+
+.footer p {
+  color: #505050;
+  margin-top: 20px;
+}
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+  .about {
+    margin-top: -500px;
+  }
+
+  .navbar-brand,
+  .nav-link {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  }
+
+  .jumbotron {
+    margin-top: -75px;
+  }
+
+  .education .education-img img {
+    max-width: 620px;
+  }
+}
